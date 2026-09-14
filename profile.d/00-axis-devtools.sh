@@ -8,10 +8,7 @@ esac
 
 alias motd='cat /etc/motd'
 
-if command -v fastfetch >/dev/null 2>&1; then
-	# Keep cache/config off the game data volume (HOME is /home/container).
-	XDG_CACHE_HOME=/tmp XDG_CONFIG_HOME=/etc fastfetch
-	printf '\n'
-fi
+# Fresh screen so the MOTD is the first thing you see.
+clear
 
 [ -r /etc/motd ] && cat /etc/motd
