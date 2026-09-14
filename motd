@@ -1,21 +1,22 @@
-  ============================================================
-    /\
+============================================================
+    /\      
    //\\     Atlas DevTools
-  //  \\    developer shell for this server
-  ============================================================
+  //  \\    Developer Shell
+============================================================
 
-  This is not the game console.
-  You are in /home/container (server files).
+  Directory: /home/container (Server Files)
 
-  +-- tools -----------------------------------------------+
-  |  git / curl / wget       clone or download             |
-  |  tar / unzip / gzip      archives                      |
-  |  nano / vim / less       edit and view                 |
-  |  jq                      JSON                          |
-  |  motd                    this help (cat /etc/motd)     |
-  +--------------------------------------------------------+
+  [Available Tools]
+  • Code & Transfer : git, curl, wget
+  • Archives        : tar, unzip, gzip
+  • File Editors    : nano, vim, less
+  • Utilities       : jq, motd
 
-  Limits: no package installs; binaries on this volume
-          will not run (noexec).
-  Idle sessions stop the sidecar — attach again to resume.
-  Edit files here, then restart the game server to apply.
+  [Environment Restrictions]
+  • No package installs allowed.
+  • Executables on this volume are restricted (noexec).
+  • Idle sessions will pause the sidecar automatically.
+
+  Tip: Edit your configuration files here, then apply changes 
+       by restarting the server via the main console.
+============================================================
