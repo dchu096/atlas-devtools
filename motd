@@ -1,0 +1,13 @@
+  Atlas DevTools — developer shell for this server
+  This is not the game console. You are in /home/container (server files).
+
+  git / curl / wget       clone or download
+  tar / unzip / gzip      archives
+  nano / vim / less       edit and view
+  jq                      JSON
+  fastfetch               splash screen
+  motd                    this help (also: cat /etc/motd)
+
+  Limits: no package installs; binaries on this volume will not run (noexec).
+  Idle sessions stop the sidecar — attach again to resume.
+  Edit files here, then restart the game server to apply them.
